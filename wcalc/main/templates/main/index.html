@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block title%}
+{{title}}
+{% endblock %}
+
+{% block content %}
+    <div class="alert alert-warning mt-2">
+        <center>
+            <h2>Today is {{ date }}</h2>
+            <h2>Since the beginning of 2019, week No. {{ reader }} takes place.</h2>
+        </center>
+    </div>
+{% endblock %}
